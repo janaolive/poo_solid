@@ -1,6 +1,7 @@
 import Energy from '../Energy';
+import SimpleFigther from './SimpleFighter';
 
-interface Fighter {
+interface Fighter extends SimpleFigther {
   defense: number;
   energy?: Energy;
 
