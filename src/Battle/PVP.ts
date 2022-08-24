@@ -7,7 +7,6 @@ class PVP extends Battle {
   constructor(player: Fighter, playerX: Fighter) {
     super(player);
     this._playerX = playerX;
-    // this.fight();
   }
 
   fight(): number {

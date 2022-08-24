@@ -7,7 +7,6 @@ class PVE extends Battle {
     private enemy: (Fighter | SimpleFighter)[],
   ) {
     super(_player);
-    // this.fight();
   }
 
   fight(): number {
